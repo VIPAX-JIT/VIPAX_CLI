@@ -1,0 +1,22 @@
+{
+    "name": "vipax-cli",
+    "version": "1.0.0",
+    "description": "Vipax CLI - A simple developer toolkit",
+    "main": "dist/vipax.js",
+    "bin": {
+        "vipax": "./dist/vipax.js"
+    },
+    "scripts": {
+        "build": "rm -rf dist && tsc",
+        "start": "node dist/vipax.js"
+    },
+    "dependencies": {
+        "axios": "^1.6.0",
+        "chalk": "^4.1.2",
+        "commander": "^11.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0"
+    }
+}
